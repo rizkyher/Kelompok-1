@@ -10,6 +10,24 @@
 }
 
 body {
-    background: url(/IKI/Kelompok-1/image/bg-removebg-preview.png);
-    background-size: cover;
+    background: url(/IKI/Kelompok-1/image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+}
+.header {
+    position:fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.header .logo img {
+    width: 150px;
 }
