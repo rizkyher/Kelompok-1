@@ -142,3 +142,7 @@ body {
 .btn:hover {
     box-shadow: none;
 }
+
+.about-content {
+    background: url();
+}
