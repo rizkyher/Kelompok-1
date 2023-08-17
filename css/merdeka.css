@@ -16,7 +16,7 @@ html {
 
 body {
     background: url(/image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: cover ;
+    background-size: 107.9999rem  ;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
@@ -85,14 +85,21 @@ section {
 
 .home {
     background: url(/image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: cover ;
+    background-size: 107.9999rem  ;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position-y: -500px;
     background-position-x: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.home-img img,
+.home-content{
+    position: relative;
+    bottom: 200px;
+}
+
 .home-img img {
     width: 35vw;
     border-radius: 200px;
@@ -132,7 +139,7 @@ section {
     font-family: Engravers MT;
     font-size: 1.5625rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
 }
 
@@ -152,10 +159,12 @@ section {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-top: 100px;
 }
 
 .btn:hover {
     box-shadow: none;
+    
 }
 
 
@@ -165,11 +174,12 @@ section {
     align-items: center;
     gap: 2rem;
     background: url(/image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: cover ;
+    background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
-    
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .heading {
@@ -177,58 +187,80 @@ section {
     font-size: 3rem; 
 }
 
+
 .about-content{
    background: url(/image/bg2.jpeg), lightgray 50% ;
-   background-size: cover ;
+   background-size:cover ;
    background-repeat: no-repeat;
-   background-position-y: center;
+   background-position-y: -100px;
    background-position-x: center;
+   position: relative;
+   bottom: 25px;
+   width: 90rem;
+   height: 33rem;
+   border-radius: 20px;
 }
 
 .about-content h1 {
     text-align: left;
     line-height: 1.2;
     color: #000;
-text-align: center;
-font-family: Trajan Pro;
-font-size: 56px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Trajan Pro;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 .about-content h2 {
    
     color: #F00;
-text-align: center;
-font-family: Poppins;
-font-size: 41px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .about-content p {
 
     margin: 2rem 0 3rem;
     color: rgb(0, 0, 0);
-text-align: center;
-font-family: Poppins;
-font-size: 41px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .about-content span {
     margin: 2rem 0 3rem;
     color: #F00;
-text-align: center;
-font-family: Poppins;
-font-size: 41px;
-font-style: normal;
-font-weight: 500;
-line-height: normal
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
 }
 
+.about-content .btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    transform: .5s ease;
+    background: red;
+    box-shadow: 0 0 1rem black;
+    color: black;
+    text-align: center;
+    font-family: Engravers MT;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+}
 
