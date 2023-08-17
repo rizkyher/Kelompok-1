@@ -9,6 +9,10 @@
     outline: none;
     scroll-behavior: smooth;
 }
+html {
+    font-size: 62,5%;
+    overflow-x: hidden;
+}
 
 body {
     background: url(/IKI/Kelompok-1/image/bg-removebg-preview.png), lightgray 50% ;
@@ -17,6 +21,12 @@ body {
     background-position-y: center;
     background-position-x: center;
 }
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9%;
+}
+
 .header {
     position:fixed;
     top: 10px;
@@ -74,6 +84,11 @@ body {
 }
 
 .home {
+    background: url(/IKI/Kelompok-1/image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,6 +158,35 @@ body {
     box-shadow: none;
 }
 
-.about-content {
-    background: url();
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: url(/IKI/Kelompok-1/image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.about-content h1 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
 }
