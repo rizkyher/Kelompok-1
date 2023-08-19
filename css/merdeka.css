@@ -189,17 +189,27 @@ section {
 
 
 .about-content{
-   background: url(/image/bg2.jpeg), lightgray 50% ;
-   background-size:cover ;
-   background-repeat: no-repeat;
-   background-position-y: -100px;
-   background-position-x: center;
    position: relative;
    bottom: 25px;
    width: 90rem;
    height: 33rem;
    border-radius: 20px;
+  
 }
+
+.about-content::before{
+    content: '';
+    background: url(/image/bg2.jpeg), lightgray 50% ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: center;
+    position: absolute;
+    inset: 0;
+    opacity: 80%;
+    
+}
+
 
 .about-content h1 {
     text-align: left;
@@ -211,10 +221,11 @@ section {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    position: relative;
 }
 
 .about-content h2 {
-   
+   position: relative;
     color: #F00;
     text-align: center;
     font-family: Poppins;
@@ -225,7 +236,7 @@ section {
 }
 
 .about-content p {
-
+    position: relative;
     margin: 2rem 0 3rem;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -262,5 +273,6 @@ section {
     font-weight: 500;
     line-height: normal;
     float: right;
+    position: relative;
 }
 
