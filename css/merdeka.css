@@ -364,3 +364,21 @@ section {
     align-items: center;
     z-index: 100;
 }
+
+.foot-nav a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.foot-nav a:hover,
+.foot-nav a.active {
+    color: #F00;
+}
