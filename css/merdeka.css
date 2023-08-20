@@ -342,6 +342,26 @@ section {
     display: block;
 }
 
+.h-content .btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    transform: .5s ease;
+    background: red;
+    box-shadow: 0 0 1rem black;
+    color: black;
+    text-align: center;
+    font-family: Engravers MT;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+    position: relative;
+    left: 550px;
+    top: 50px;
+}
+
 .history-content .history-img{
     position: relative;
     left: 150px;
@@ -351,6 +371,8 @@ section {
     height: 32.25rem;
     flex-shrink: 0;
 }
+
+
 
 .foot-nav {
     position:relative;
