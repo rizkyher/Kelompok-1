@@ -274,6 +274,11 @@ section {
     position: relative;
 }
 
+.about-content .btn:hover {
+    box-shadow: none;
+    
+}
+
 /* css history **/
 
 .history {
@@ -361,6 +366,11 @@ section {
     position: relative;
     left: 550px;
     top: 50px;
+}
+
+.h-content .btn:hover {
+    box-shadow: none;
+    
 }
 
 .history-content .history-img{
