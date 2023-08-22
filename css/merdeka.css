@@ -1,4 +1,4 @@
-@import url(css/menu/fonts.css);
+@import url(menu/fonts.css);
 
 * {
     margin: 0;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem  ;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -84,7 +84,7 @@ section {
 }
 
 .home {
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem  ;
     background-repeat: no-repeat;
     background-position-y: -500px;
@@ -173,7 +173,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -196,7 +196,7 @@ section {
 
 .about-content::before{
     content: '';
-    background: url(/image/bg2.jpeg), lightgray 50% ;
+    background: url(../image/bg2.jpeg), lightgray 50% ;
     background-size:cover ;
     background-repeat: no-repeat;
     background-position-y: -100px;
@@ -285,7 +285,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: -520px;
@@ -395,7 +395,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: -520px;
@@ -508,7 +508,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: -520px;
@@ -618,7 +618,7 @@ section {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 107.9999rem ;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -642,7 +642,7 @@ section {
 
 .history-content4::before{
     content: '';
-    background: url(/image/bg2.jpeg), lightgray 50% ;
+    background: url(../image/bg2.jpeg), lightgray 50% ;
     background-size:cover ;
     background-repeat: no-repeat;
     background-position-y: -100px;
