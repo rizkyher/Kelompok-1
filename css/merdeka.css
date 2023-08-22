@@ -20,6 +20,8 @@ body {
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: center;
+    width: 90rem;
+    height: 63.3125rem;
 }
 
 section {
