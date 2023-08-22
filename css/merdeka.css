@@ -182,7 +182,7 @@ section {
     padding-right: 0;
 }
 
-.heading {
+.about .heading {
     text-align: center;
     font-size: 3rem; 
 }
@@ -294,10 +294,10 @@ section {
     padding-right: 0;
 }
 
-.heading {
+.history .heading {
     position: relative;
     bottom: 70px;
-    color: #000;
+    color: red;
     display: block;
     text-align: center;
     font-family: Engravers MT;
@@ -308,7 +308,9 @@ section {
 }
 .history-content {
     position: relative;
+    left: 2rem;
     bottom: 50px;
+    width:  90rem;
     display: flex;
     background: rgba(217, 217, 217, 0.90);
 }
@@ -330,18 +332,22 @@ section {
     line-height: normal;
 }
  .history-content p{
-    width: 35rem;
+    width: 50rem;
     height: 19.6875rem;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     position: relative;
-    left: 325px;
+    left: 13rem;
     top: 60px;
+ }
+
+ .history-content span{
+    color: red;
  }
 
 .h-content {
@@ -364,7 +370,7 @@ section {
     line-height: normal;
     float: right;
     position: relative;
-    left: 550px;
+    left: 15.5rem;
     top: 50px;
 }
 
@@ -401,7 +407,7 @@ section {
 .history2 .heading {
     position: relative;
     bottom: 6rem;
-    color: #000;
+    color: red;
     display: block;
     text-align: center;
     font-family: Engravers MT;
@@ -425,7 +431,9 @@ section {
 .history-content2 {
     position: relative;
     bottom: 100px;
+    left: 1.8rem;
     height: 36rem;
+    width:  90rem;
     display: flex;
     background: rgba(217, 217, 217, 0.90);
 }
@@ -433,8 +441,8 @@ section {
 .history-content2 h2{
     position: relative;
     left: 1rem;
-    top: 25px;
-    width: 33.125rem;
+    top: 3rem;
+    width: 40rem;
     height: 5.3125rem;
     flex-shrink: 0;
     color: #000;
@@ -473,7 +481,7 @@ section {
 
 .h-content2 .btn {
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1.5rem;
     border-radius: 1rem 0 0 1rem;
     transform: .5s ease;
     background: red;
@@ -487,7 +495,7 @@ section {
     line-height: normal;
     float: right;
     position: relative;
-    top: 100px;
+    top: 7.3rem;
 }
 
 .h-content2 .btn:hover {
@@ -509,10 +517,10 @@ section {
     padding-right: 0;
 }
 
-.heading {
+.history3 .heading {
     position: relative;
     bottom: 70px;
-    color: #000;
+    color: red;
     display: block;
     text-align: center;
     font-family: Engravers MT;
@@ -524,9 +532,11 @@ section {
 .history-content3 {
     position: relative;
     bottom: 50px;
+    left: 1.5rem;
     display: flex;
     background: rgba(217, 217, 217, 0.90);
     height: 32rem;
+    width: 90rem;
 }
 
 
@@ -546,12 +556,12 @@ section {
     line-height: normal;
 }
  .history-content3 p{
-    width: 60rem;
+    width: 56rem;
     height: 19.6875rem;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -601,6 +611,121 @@ section {
 }
 
 
+/* history4 */
+
+.history4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: 107.9999rem ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 2rem; 
+}
+
+.history-content4{
+   position: relative;
+   bottom: 25px;
+   width: 90rem;
+   height: 33rem;  
+}
+
+.history-content4::before{
+    content: '';
+    background: url(/image/bg2.jpeg), lightgray 50% ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: center;
+    position: absolute;
+    inset: 0;
+    opacity: 70%;
+    border-radius: 20px;
+    border: 0.5px solid red;
+}
+
+
+.history-content4 h1 {
+    text-align: left;
+    line-height: 1.2;
+    color: #fd0404;
+    text-align: center;
+    font-family: Trajan Pro;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: relative;
+    bottom: 3rem;
+}
+
+.history-content4 h2 {
+    position: relative;
+    bottom: 3.rem;
+    color: #F00;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.history-content4 p {
+    position: relative;
+    bottom: 3.rem;
+    color: black;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.history-content4 span {
+    margin: 2rem 0 3rem;
+    color: #F00;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal
+}
+
+.history-content4 .btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    transform: .5s ease;
+    background: red;
+    box-shadow: 0 0 1rem black;
+    color: black;
+    text-align: center;
+    font-family: Engravers MT;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+    position: relative;
+}
+
+.history-content4 .btn:hover {
+    box-shadow: none;
+    
+}
 
 
 
@@ -635,117 +760,4 @@ section {
 .foot-nav a:hover,
 .foot-nav a.active {
     color: #F00;
-}
-
-/* history4 */
-
-.history4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: 107.9999rem ;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.heading {
-    text-align: center;
-    font-size: 3rem; 
-}
-
-.history-content4{
-   position: relative;
-   bottom: 25px;
-   width: 90rem;
-   height: 33rem;  
-}
-
-.history-content4::before{
-    content: '';
-    background: url(/image/bg2.jpeg), lightgray 50% ;
-    background-size:cover ;
-    background-repeat: no-repeat;
-    background-position-y: -100px;
-    background-position-x: center;
-    position: absolute;
-    inset: 0;
-    opacity: 80%;
-    border-radius: 20px;
-    border: 0.5px solid red;
-}
-
-
-.history-content4 h1 {
-    text-align: left;
-    line-height: 1.2;
-    color: #fd0404;
-    text-align: center;
-    font-family: Trajan Pro;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    position: relative;
-}
-
-.history-content4 h2 {
-   position: relative;
-    color: #F00;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 41px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.history-content4 p {
-    position: relative;
-    margin: 2rem 0 3rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-family: Poppins;
-    font-size: 41px;
-    font-style: bold;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.history-content4 span {
-    margin: 2rem 0 3rem;
-    color: #F00;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 41px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal
-}
-
-.history-content4 .btn {
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    border-radius: 1rem 0 0 1rem;
-    transform: .5s ease;
-    background: red;
-    box-shadow: 0 0 1rem black;
-    color: black;
-    text-align: center;
-    font-family: Engravers MT;
-    font-size: 1.9375rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    float: right;
-    position: relative;
-}
-
-.history-content4 .btn:hover {
-    box-shadow: none;
-    
 }
