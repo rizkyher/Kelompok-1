@@ -761,3 +761,45 @@ section {
 .foot-nav a.active {
     color: #F00;
 }
+
+/*Profile*/
+
+.profile {
+    display: block;
+}
+ .profile-container {
+    display: block;
+ }
+
+ .aziz-container {
+    display: flex;
+ }
+
+ .aziz-content {
+    display: block;
+ }
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border-radius: 4rem;
+    transform: .5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
