@@ -762,22 +762,70 @@ section {
     color: #F00;
 }
 
-/*Profile*/
+/*Profile aziz*/
 
 .profile {
     display: block;
+    position: inherit;
+    background: url(../image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: 107.9999rem ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    
 }
  .profile-container {
     display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 2rem;
+ }
+
+ .profile-container::before{
+    content: '';
+    background: url(../image/logo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    opacity: 70%;
  }
 
  .aziz-container {
+    position: relative;
+    left: 20rem;
     display: flex;
+    background: #FF0000;
+    width: 40rem;
+    height: 15rem;
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
  }
 
  .aziz-content {
     display: block;
  }
+/*Profile Rizky*/
+
+.rizky-container {
+    display: flex;
+    background: #ffff;
+    position: relative;
+    left: 20rem;
+    width: 40rem;
+    height: 16rem;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+ }
+
+ .rizky-content {
+    display: block;
+ }
+
+
 .social-media a {
     display: inline-flex;
     justify-content: center;
@@ -798,6 +846,9 @@ section {
     padding: 1rem 2.8rem;
     border-radius: 4rem;
     transform: .5s ease;
+    margin-bottom:10px;
+    position: relative;
+    bottom: 3rem;
 }
 
 .btn:hover {
