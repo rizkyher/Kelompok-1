@@ -384,6 +384,7 @@ section {
 }
 
 /* history 2*/
+
 .history2 {
     justify-content: center;
     align-items: center;
@@ -604,6 +605,7 @@ section {
 
 
 /*foot nav*/
+
 .foot-nav {
     position:sticky;
     bottom: 40px;
@@ -633,4 +635,117 @@ section {
 .foot-nav a:hover,
 .foot-nav a.active {
     color: #F00;
+}
+
+/* history4 */
+
+.history4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: url(/image/bg-removebg-preview.png), lightgray 50% ;
+    background-size: 107.9999rem ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem; 
+}
+
+.history-content4{
+   position: relative;
+   bottom: 25px;
+   width: 90rem;
+   height: 33rem;  
+}
+
+.history-content4::before{
+    content: '';
+    background: url(/image/bg2.jpeg), lightgray 50% ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position-y: -100px;
+    background-position-x: center;
+    position: absolute;
+    inset: 0;
+    opacity: 80%;
+    border-radius: 20px;
+    border: 0.5px solid red;
+}
+
+
+.history-content4 h1 {
+    text-align: left;
+    line-height: 1.2;
+    color: #fd0404;
+    text-align: center;
+    font-family: Trajan Pro;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    position: relative;
+}
+
+.history-content4 h2 {
+   position: relative;
+    color: #F00;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.history-content4 p {
+    position: relative;
+    margin: 2rem 0 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: bold;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.history-content4 span {
+    margin: 2rem 0 3rem;
+    color: #F00;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.history-content4 .btn {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+    transform: .5s ease;
+    background: red;
+    box-shadow: 0 0 1rem black;
+    color: black;
+    text-align: center;
+    font-family: Engravers MT;
+    font-size: 1.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    float: right;
+    position: relative;
+}
+
+.history-content4 .btn:hover {
+    box-shadow: none;
+    
 }
