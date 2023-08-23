@@ -21,6 +21,7 @@ body {
 }
 
 section {
+    width:100% ;
     min-height: 70%;
     padding: 10rem 9%;
 }
@@ -202,8 +203,8 @@ section {
     background-position-x: 90%;
     position: absolute;
     inset: 0;
-    opacity: 80%;
-    border-radius: 60px;
+    opacity: 70%;
+    border-radius: 20px;
     border: 0.5px solid red;
 }
 
@@ -221,7 +222,7 @@ section {
 }
 
 .about-content h2 {
-     position: relative;
+    position: relative;
     color: #F00;
     text-align: center;
     font-family: Poppins;
@@ -360,7 +361,7 @@ section {
     color: black;
     text-align: center;
     font-family: Engravers MT;
-    font-size: 1.9375rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -387,19 +388,31 @@ section {
 .history2 {
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    width: 100%;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: 107.9999rem ;
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position-y: -520px;
+    background-position-y: 50%;
     background-position-x: center;
     padding-left: 0;
     padding-right: 0;
 }
 
+.history-content2 {
+    position: relative;
+    bottom: 5rem;
+    height: 60%;
+    left: 4rem;
+    width:  100%;
+    display: flex;
+    background: rgba(217, 217, 217, 0.90);
+}
+
+
 .history2 .heading {
     position: relative;
-    bottom: 6rem;
+    bottom: 5.3rem;
+    left: 4rem;
     color: red;
     display: block;
     text-align: center;
@@ -411,30 +424,16 @@ section {
 }
 
 .history-img2 img {
-    width: 20rem;
+    width: 100%;
     position: relative;
-    top: 6rem;
-    left: 7rem;
+    left: 2rem;
 }
 
-.nagasaki-bomb img{
-    width: 20px;
-}
-
-.history-content2 {
-    position: relative;
-    bottom: 100px;
-    left: 1.8rem;
-    height: 36rem;
-    width:  90rem;
-    display: flex;
-    background: rgba(217, 217, 217, 0.90);
-}
 
 .history-content2 h2{
     position: relative;
-    left: 1rem;
-    top: 3rem;
+    left: 5rem;
+    padding-top: 3%;
     width: 40rem;
     height: 5.3125rem;
     flex-shrink: 0;
@@ -447,32 +446,30 @@ section {
     line-height: normal;
 }
  .history-content2 p{
-    width: 55rem;
+    width: 100%;
     height: 19.6875rem;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     position: relative;
-    top: 2rem;
-    right: 6rem;
-    text-align: ;
+    padding-left: 7%;
  }
  .history-content2 span {
     margin: 2rem 0 3rem;
     color: #F00;
     text-align: center;
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal
 }
 
-.h-content2 .btn {
+.h-content2 .btn, .btn2 {
     display: inline-block;
     padding: .5rem 1.5rem;
     border-radius: 1rem 0 0 1rem;
@@ -482,29 +479,39 @@ section {
     color: black;
     text-align: center;
     font-family: Engravers MT;
-    font-size: 1.9375rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     float: right;
     position: relative;
-    top: 7.3rem;
+    margin-top: 13%;
 }
 
-.h-content2 .btn:hover {
+.h-content2 .btn:hover, .btn2:hover {
     box-shadow: none;
     
 }
+
+
+.h-content2 .btn2 {
+    margin-left: 5%;
+    padding: 1.5%;
+    float: left;
+    border-radius: 0 1rem 1rem 0;
+    font-size: 1.2rem;
+}
+
 /*history 3*/
 
 .history3 {
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+   width: 100%;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: 107.9999rem ;
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position-y: -520px;
+    background-position-y: 50%;
     background-position-x: center;
     padding-left: 0;
     padding-right: 0;
@@ -512,7 +519,8 @@ section {
 
 .history3 .heading {
     position: relative;
-    bottom: 70px;
+    bottom: 5.3rem;
+    left: 4rem;
     color: red;
     display: block;
     text-align: center;
@@ -524,20 +532,20 @@ section {
 }
 .history-content3 {
     position: relative;
-    bottom: 50px;
-    left: 1.5rem;
+    bottom: 5rem;
+    height: 60%;
+    left: 4rem;
+    width:  100%;
     display: flex;
     background: rgba(217, 217, 217, 0.90);
-    height: 32rem;
-    width: 90rem;
 }
 
 
 .history-content3 h2{
     position: relative;
-    left: 300px;
-    top: 40px;
-    width: 33.125rem;
+    left: 5rem;
+    padding-top: 3%;
+    width: 40rem;
     height: 5.3125rem;
     flex-shrink: 0;
     color: #000;
@@ -549,27 +557,26 @@ section {
     line-height: normal;
 }
  .history-content3 p{
-    width: 56rem;
+    width: 100%;
     height: 19.6875rem;
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     position: relative;
-    left: 8rem;
-    top: 30px;
+    padding-left: 10%;
  }
 
 .h-content3 {
     display: block;
 }
 
-.h-content3 .btn {
+.h-content3 .btn, .btn2 {
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: .5rem 1.5rem;
     border-radius: 1rem 0 0 1rem;
     transform: .5s ease;
     background: red;
@@ -577,30 +584,34 @@ section {
     color: black;
     text-align: center;
     font-family: Engravers MT;
-    font-size: 1.9375rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     float: right;
     position: relative;
-    left: 8.4rem;
-    top: 4rem;
+    margin-top: 13%;
 }
 
-.h-content3 .btn:hover {
+.h-content3 .btn:hover, .btn2:hover {
     box-shadow: none;
     
 }
 
-.history-content3 .history-img3{
-    position: relative;
-    left: 4rem;
-    top: 7rem;
+.h-content3 .btn2 {
+    font-size: 1.2rem;
+    margin-left: 5%;
+    padding: 1.5%;
+    float: left;
+    border-radius: 0 1rem 1rem 0;
 }
+
+
 .history-img3 img {
-    width: 25.375rem;
-    height: 20.25rem;
-    flex-shrink: 0;
+    width: 28vw;
+    position: relative;
+    top: 6rem;
+    padding-left: 6%;
 }
 
 
@@ -610,13 +621,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: 107.9999rem ;
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
-    padding-left: 0;
+    background-position-y: 50%;
+    background-position-x: 50%;
     padding-right: 0;
 }
 
@@ -627,10 +636,11 @@ section {
 }
 
 .history-content4{
-   position: relative;
-   bottom: 25px;
-   width: 90rem;
-   height: 33rem;  
+    position: relative;
+    left: 5%;
+    bottom: 2rem;
+    width: 100%;
+    height: 70%;  
 }
 
 .history-content4::before{
@@ -644,22 +654,20 @@ section {
     inset: 0;
     opacity: 70%;
     border-radius: 20px;
-    border: 0.5px solid red;
 }
 
 
 .history-content4 h1 {
     text-align: left;
-    line-height: 1.2;
-    color: #fd0404;
+    line-height: normal;
+    color: #000;
     text-align: center;
     font-family: Trajan Pro;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 900;
-    line-height: normal;
     position: relative;
-    bottom: 3rem;
+    bottom: 3.2rem;
 }
 
 .history-content4 h2 {
@@ -676,13 +684,13 @@ section {
 
 .history-content4 p {
     position: relative;
-    bottom: 3.rem;
-    color: black;
+    margin: 2rem 0 3rem;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-family: Poppins;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-style: bold;
-    font-weight: 800;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -691,13 +699,13 @@ section {
     color: #F00;
     text-align: center;
     font-family: Poppins;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal
 }
 
-.history-content4 .btn {
+.history-content4 .btn , .btn2 {
     display: inline-block;
     padding: 1rem 1.5rem;
     border-radius: 1rem 0 0 1rem;
@@ -715,9 +723,17 @@ section {
     position: relative;
 }
 
-.history-content4 .btn:hover {
+.history-content4 .btn:hover, .btn2:hover {
     box-shadow: none;
     
+}
+
+.history-content4 .btn2 {
+    padding: 1.5%;
+    float: left;
+    position: relative;
+    bottom: 8.7rem;
+    border-radius: 0 1rem 1rem 0;
 }
 
 
@@ -726,19 +742,20 @@ section {
 
 .foot-nav {
     position:sticky;
-    bottom: 40px;
-    left: 0;
+    z-index: 0;
+    bottom: 35rem;
     width: 100%;
     height: 20px;
     padding:1rem;
-    display: flex;
+    display: inline;
     justify-content: center ;
     align-items: center;
     z-index: 100;
+    float: left;
 }
 
 .foot-nav a{
-    display: inline-flex;
+    display: block;
     justify-content: center;
     align-items: center;
     width: 4rem;
@@ -748,6 +765,7 @@ section {
     font-size: 1.5rem;
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
+    color: #000;
 }
 
 .foot-nav a:hover,
@@ -758,6 +776,7 @@ section {
 /*Profile aziz*/
 
 .profile {
+    margin-top: 40rem;
     display: block;
     position: inherit;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
