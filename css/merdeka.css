@@ -507,7 +507,7 @@ section {
 .history3 {
     justify-content: center;
     align-items: center;
-   width: 100%;
+    width: 100%;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
     background-size: 100% ;
     background-repeat: no-repeat;
@@ -773,17 +773,18 @@ section {
     color: #F00;
 }
 
-/*Profile aziz*/
+/*Profile*/
 
 .profile {
     margin-top: 40rem;
     display: block;
     position: inherit;
+    width: 100%;
     background: url(../image/bg-removebg-preview.png), lightgray 50% ;
-    background-size: 107.9999rem ;
+    background-size: 100% ;
     background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: center;
+    background-position-y: 50%;
+    background-position-x: 5rem;
     
 }
  .profile-container {
@@ -792,6 +793,7 @@ section {
     justify-content: center;
     position: relative;
     bottom: 2rem;
+    right: 4rem;
  }
 
  .profile-container::before{
@@ -803,6 +805,8 @@ section {
     inset: 0;
     opacity: 70%;
  }
+
+ /*profile aziz*/
 
  .aziz-container {
     position: relative;
@@ -851,7 +855,7 @@ section {
 
 .rizky-container .btn {
     background: red;
-    color: #000;
+    color: #ffff;
 }
 
  .rizky-content {
