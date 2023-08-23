@@ -796,15 +796,6 @@ section {
     right: 4rem;
  }
 
- .profile-container::before{
-    content: '';
-    background: url(../image/logo2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    inset: 0;
-    opacity: 70%;
- }
 
  /*profile aziz*/
 
