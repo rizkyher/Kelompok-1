@@ -36,6 +36,7 @@ section {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    transition: top .3s;
 }
 .header .logo img {
     width: 27%;
