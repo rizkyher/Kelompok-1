@@ -197,7 +197,7 @@ section {
 .about-content::before{
     content: '';
     background: url(../image/bg2.jpeg), lightgray 50% ;
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position-y: 50%;
     background-position-x: 90%;
