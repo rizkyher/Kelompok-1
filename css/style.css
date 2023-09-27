@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+section {
+    background: url(/image/bgbg.png);
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    padding-top: 3rem;
+}
+
+body {
+    background: rgb(182, 182, 182) 50%;
+}
+
+/*NAVBAR*/
+nav img {
+    position: relative;
+    top: 1rem;
+}
+
+/*HOME*/
+.img {
+    width: 400px !important;
+    height: 600px !important;
+}
+
+.uk-card-body {
+    align-items: center;
+    position: relative;
+    top: 25%;
+
+}
